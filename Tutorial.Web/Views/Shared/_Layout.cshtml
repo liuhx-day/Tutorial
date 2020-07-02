@@ -1,0 +1,20 @@
+﻿<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>@ViewBag.Title</title>
+</head>
+<body>
+    <div>
+        @RenderBody()
+    </div>
+    <hr />
+    <div>
+        @RenderSection("bottom", required: false)
+    </div>
+
+    @*@await Component.InvokeAsync("Welcome")*@
+<vc:welcome></vc:welcome>
+</body>
+</html>

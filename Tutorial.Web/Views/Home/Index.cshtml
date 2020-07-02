@@ -1,0 +1,29 @@
+﻿@model HomeIndexViewModel
+
+@{
+    ViewBag.Title = "Home Index";
+}
+
+
+<partial name="_StudentTable" for="@Model.Students" />
+@*<ul>
+    @foreach (var s in Model.Students)
+    {
+        <li>
+            @s.Name (@s.Age)
+
+            <a asp-action="Detail" asp-route-id="@s.Id">明细 Tag</a>
+
+        </li>
+    }
+</ul>*@
+@section bottom
+{
+    <div>
+        <a asp-action="Create">添加一个学生</a>
+    </div>
+
+}
+
+
+
