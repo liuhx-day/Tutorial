@@ -1,7 +1,7 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using System;
 using System.Linq;
-using Newtonsoft.Json;
+using Microsoft.AspNetCore.Authorization;
 using Tutorial.Web.Model;
 using Tutorial.Web.Services;
 using Tutorial.Web.ViewModels;
@@ -45,12 +45,14 @@ namespace Tutorial.Web.Controllers
             }
             return View(student);
         }
+        [Authorize]
         [HttpGet]
         public IActionResult Create()
         {
             return View();
         }
 
+        [Authorize]
         [HttpPost]
         [ValidateAntiForgeryToken]
         public IActionResult Create(StudentCreateViewModel student)

@@ -33,3 +33,7 @@ D:\Programs\CampusProject\Tutorial\Tutorial.Web\obj\Debug\netcoreapp2.2\Razor\Vi
 D:\Programs\CampusProject\Tutorial\Tutorial.Web\obj\Debug\netcoreapp2.2\Razor\Views\Home\_StudentTable.cshtml.g.cs
 D:\Programs\CampusProject\Tutorial\Tutorial.Web\obj\Debug\netcoreapp2.2\Razor\Views\Shared\Components\WelCome\Default.cshtml.g.cs
 D:\Programs\CampusProject\Tutorial\Tutorial.Web\obj\Debug\netcoreapp2.2\Razor\Views\_ViewStart.cshtml.g.cs
+D:\Programs\CampusProject\Tutorial\Tutorial.Web\bin\Debug\netcoreapp2.2\package-lock.json
+D:\Programs\CampusProject\Tutorial\Tutorial.Web\bin\Debug\netcoreapp2.2\package.json
+D:\Programs\CampusProject\Tutorial\Tutorial.Web\obj\Debug\netcoreapp2.2\Razor\Views\Account\Login.cshtml.g.cs
+D:\Programs\CampusProject\Tutorial\Tutorial.Web\obj\Debug\netcoreapp2.2\Razor\Views\Account\Register.cshtml.g.cs
